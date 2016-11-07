@@ -10,5 +10,8 @@ module.exports = {
             .select('id', 'name as text')
             .orderBy('name')
             .then();
+    },
+    add: (person) => {
+        return db('person').insert(person, 'id').then();
     }
 };

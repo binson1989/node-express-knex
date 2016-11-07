@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "express": "^4.14.0",
     "knex": "^0.12.6",
     "pg": "^6.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1"
+    "eslint": "^3.9.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
   }
 }
